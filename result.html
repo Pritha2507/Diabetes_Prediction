@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PREDICTION RESULT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.pexels.com/photos/7653093/pexels-photo-7653093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Background image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: black; /* Set text color to black */
+        }
+        h1 {
+            margin-left: 600px;
+            margin-top: 30px;
+            margin-bottom: 600px;
+            color: black; 
+            font-size: 60px;
+            
+        }
+        p {
+            margin-right: 500px;
+            font-size: 30px;
+            margin-bottom: 50px; 
+            color: black;
+        }
+        strong {
+            font-weight: bold;
+        }
+        .prediction {
+            color: black; /* Predicted risk text color white */
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p class="prediction"><strong>Predicted Risk of Diabetes:</strong>{{ prediction }}</p>
+</body>
+</html>
