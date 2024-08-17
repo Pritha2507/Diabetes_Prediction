@@ -1,0 +1,3 @@
+In this project, I have developed a model using K-Nearest Neighbours (KNN) algorithm to predict the risk of diabetes in patients based on their health metrics and demographic information, with the aim of early detection and intervention to improve patient outcomes.
+The approach is modular, starting with data acquisition and preprocessing, followed by exploratory data analysis to uncover patterns and relationships. Feature engineering is done which enhanced the dataset's predictive power, and the KNN model is built and evaluated for accuracy, precision, recall, and F1-score.
+The model is deployed in a Flask application, where it will be continuously monitored for performance on new data to ensure its reliability in real-world scenarios.
