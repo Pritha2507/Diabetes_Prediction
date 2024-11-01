@@ -15,7 +15,7 @@ This Flask application uses a KNN model to predict diabetes risk based on health
 
 # Installation
 1. Clone the Repository
-git clone https://github.com/yourusername/diabetes-prediction-flask-app.git
+git clone https://github.com/Pritha2507/diabetes-prediction-flask-app.git
 cd diabetes-prediction-flask-app
 2. Install Dependencies Make sure you have Python 3.7 or higher, then install dependencies:
 pip install -r requirements.txt
